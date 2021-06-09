@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: rgba(220,220,220,1);
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("img/perfil.jpeg");
+	padding: 25% 0% 0% 0%;	
+}
+span{
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+h1{
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 10px 40px; 
+	text-shadow:  1.5px 1.5px rgb(0, 0, 0, 0.5 );
+	font-size: 50px;
+	font-family: 'Vidaloka', serif;
+	color: white;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+a{
+	color: white;	
+}
+a:hover{
+	color: grey;
+}
+table{
+	width: 100%;
+}
+.columna_30 {
+	width: 20%;
+}
+.columna_70 {
+	width: 79%;
+}
+.background_cover_center{
+	background-size: cover;
+	background-position: center;
+}
+.box_shadow{
+	margin: 3% 9%;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+.background_gradient{
+	padding: 2%;
+
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.text-align_rigth{
+	text-align: right;
+} 
+#INFORMACION td{
+	font-size: 20px;
+}
+#OBJETIVO p{
+	text-align: justify;
+	display: inline-block;
+	font-size: 25px;
+}
+#EXPERIANCIA table{
+	border: red 5px solid;
+}
+#EXPERIENCIA tr{
+	width: 100%;
+}
+#EXPERIENCIA img{
+	margin: 10px 10px;
+	border-radius: 50%;
+	width: 80%;
+	float: left;
+}
+#EXPERIENCIA li{
+	list-style:none; 	
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+	    font-size: 11px;
+	}
+	h1{
+		margin: 5px 0px 0px 0px;
+		padding: 0px 0px 5px 20px; 
+		text-shadow:  0.75px 0.75px rgb(0, 0, 0, 0.5 );
+		font-size: 25px;
+		font-family: 'Vidaloka', serif;
+	}
+	h2{
+		font-size: 15px;
+	}
+	span{
+		font-size: 12.5px;
+	}
+	.box_shadow{
+		box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+	}
+	#INFORMACION td{
+		font-size: 10px;
+	}
+	#EXPERIANCIA table{
+		border: red 2.5px solid;
+	}
+	#EXPERIENCIA img{
+		margin: 5px 5px;
+	}
+	#OBJETIVO p{
+		font-size: 12.5px;
+	}
+
+}
