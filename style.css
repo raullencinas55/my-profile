@@ -9,24 +9,23 @@ body{
 	color: rgba(220,220,220,1);
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
-
 header{
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("img/perfil.jpeg");
-	padding: 25% 0% 0% 0%;	
+	padding: 25% 2% 0% 2%;	
 }
 span{
 	font-weight: bold;
 	font-size: 25px;
 	color: white;
 }
-h1{
-	margin: 10px 0px 0px 0px;
-	padding: 0px 0px 10px 40px; 
+h1{ 
 	text-shadow:  1.5px 1.5px rgb(0, 0, 0, 0.5 );
 	font-size: 50px;
 	font-family: 'Vidaloka', serif;
 	color: white;
+	text-align: left;
 }
 h2{
 	text-align: center;
@@ -59,7 +58,6 @@ table{
 }
 .background_gradient{
 	padding: 2%;
-
 	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 }
 .text-align_rigth{
@@ -89,13 +87,19 @@ table{
 	list-style:none; 	
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 1280px) {
+
+	div, header{ 
+	width: 1024px ;
+	}
+	
+}
+
+@media (max-width: 540px) {
 	body {
 	    font-size: 11px;
 	}
 	h1{
-		margin: 5px 0px 0px 0px;
-		padding: 0px 0px 5px 20px; 
 		text-shadow:  0.75px 0.75px rgb(0, 0, 0, 0.5 );
 		font-size: 25px;
 		font-family: 'Vidaloka', serif;
