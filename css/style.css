@@ -5,7 +5,6 @@
 @import url("components/card.css");
 
 body{
-
 	color: rgba(220,220,220,1);
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
@@ -15,7 +14,6 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	
 }
 
 h1{ 
@@ -25,16 +23,19 @@ h1{
 	color: white;
 	text-align: left;
 }
+
 h2{
 	text-align: center;
 	font-size: 30px;
 	color: white;
 }
+
 a{
 	font-weight: bold;
 	font-size: 20px;
 	color: white;	
 }
+
 a:hover{
 	color: grey;
 }
@@ -42,6 +43,7 @@ a:hover{
 .text-align_rigth{
 	text-align: right;
 }
+
 .text-aling_justify{
 	text-align: justify;
 }
@@ -50,6 +52,7 @@ a:hover{
 	text-align: justify;
 	font-size: 22px;
 }
+
 #EXPERIENCIA li{
 	list-style:none; 	
 }
@@ -58,21 +61,25 @@ a:hover{
 	body {
 	    font-size: 15px;
 	}
+	
 	h1{
 		text-shadow:  1.2px 1.2px rgb(0, 0, 0, 0.5 );
 		font-size: 35px;
 	}
+	
 	h2{
 		font-size: 23px;
 	}
+	
 	a{
 	font-weight: bold;
 	font-size: 15px;
 	color: white;	
 	}
+	
 	#OBJETIVO p{
 	font-size: 16px;
-}
+	}
 
 }
 
