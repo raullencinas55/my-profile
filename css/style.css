@@ -3,6 +3,7 @@
 @import url("components/container.css");
 @import url("components/header.css");
 @import url("components/card.css");
+@import url("components/table.css");
 
 body{
 	color: rgba(220,220,220,1);
