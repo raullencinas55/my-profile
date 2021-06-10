@@ -1,0 +1,28 @@
+.card-black{
+	margin: 3% auto;
+	padding: 2%;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+
+#EXPERIENCIA tr{
+	width: 100%;
+}
+#EXPERIENCIA img{
+	margin: 10px 10px;
+	border-radius: 50%;
+	width: 80%;
+	float: left;
+}
+
+@media (max-width: 540px) {
+	.card-black{
+		box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+	}
+
+	#EXPERIENCIA img{
+		margin: 5px 5px;
+	}
+}

@@ -1,0 +1,14 @@
+.header{
+	margin: 3% auto;
+	padding: 25% 2% 0% 2%;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../../img/perfil.jpeg");
+	background-size: cover;
+	background-position: center;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+@media (max-width: 540px) {
+	.header{
+		box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+	}
